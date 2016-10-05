@@ -20,5 +20,9 @@ public class MainPanel extends JPanel{
         JButton greenButton = new JButton("Green");
         add(greenButton);
         greenButton.setBackground(Color.green);
+        
+        JButton nos5299_NoelSterling = new JButton("Plain Button");
+        add(nos5299_NoelSterling);
+        nos5299_NoelSterling.setBackground(Color.DARK_GRAY);
     }
 }
