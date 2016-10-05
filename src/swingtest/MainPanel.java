@@ -12,17 +12,23 @@ import javax.swing.JPanel;
 public class MainPanel extends JPanel{
     MainPanel(){
         JButton blueButton = new JButton("Blue");
+        blueButton.setBackground(Color.blue);
         add(blueButton);
         
         JButton redButton = new JButton("Red");
+        redButton.setBackground(Color.red);
         add(redButton);
         
         JButton greenButton = new JButton("Green");
-        add(greenButton);
         greenButton.setBackground(Color.green);
+        add(greenButton);
         
         JButton nos5299_NoelSterling = new JButton("Plain Button");
         add(nos5299_NoelSterling);
         nos5299_NoelSterling.setBackground(Color.DARK_GRAY);
+        
+        JButton garrettButton = new JButton("Garrett");
+        
+        add(garrettButton);
     }
 }
