@@ -5,6 +5,7 @@
  */
 package swingtest;
 
+import java.awt.Color;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
@@ -15,5 +16,9 @@ public class MainPanel extends JPanel{
         
         JButton redButton = new JButton("Red");
         add(redButton);
+        
+        JButton greenButton = new JButton("Green");
+        add(greenButton);
+        greenButton.setBackground(Color.green);
     }
 }
