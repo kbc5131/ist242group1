@@ -32,5 +32,9 @@ public class MainPanel extends JPanel{
         add(garrettButton);
         
         //Kevin your button goes here. The setBackground color part is optional
+        JButton kevinButton = new JButton("Kevin");
+        kevinButton.setBackground(Color.CYAN);
+        add(kevinButton);
+        
     }
 }
